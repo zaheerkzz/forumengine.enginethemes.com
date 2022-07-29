@@ -1,0 +1,52 @@
+/* Pictos Font
+* Copyright © 2010 Drew Wilson
+* http://www.drewwilson.com  -  http://pictos.drewwilson.com
+*
+* The fonts included in this stylesheet are subject to the End User License you purchased
+* from Drew Wilson. The fonts are protected under domestic and international trademark and 
+* copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+* distributing this font software.
+*
+* This font is NOT free. It is illegal to use this font without paying for a license. 
+*/
+
+@font-face {
+	font-family: 'Pictos';
+	src: url('pictos-web.eot');
+	src: url('pictos-web.woff') format('woff'), url('pictos-web.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* font-face */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('open-sans-700.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('open-sans-300.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('open-sans-800.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans'), local('OpenSans-Semibold'), url('open-sans-600.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('open-sans-400.woff') format('woff');
+}
