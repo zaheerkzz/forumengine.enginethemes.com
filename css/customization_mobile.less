@@ -1,0 +1,48 @@
+.fontcolor(@background, @colorDark : #ffffff, @colorWhite : #3b3b3b) when (lightness(@background) >= 80%){
+	color: @colorDark;
+	//color: @background - 104;
+}
+.fontcolor(@background, @colorDark : #ffffff, @colorWhite : #3b3b3b) when (lightness(@background) < 80%){ 
+	color: @colorWhite; 
+}
+
+.ui-header .fe-search {
+	background-color: @action_2 !important;
+}
+.fe-cat-list > ul > li.fe-current > a > .name {
+	border-left: 3px solid @action_2 !important;
+}
+.fe-tab-items .fe-tab-item.current a, .fe-tab-items .fe-tab-item.active a {
+	border-top: 3px solid @action_2 !important;
+}
+.fe-btn-primary, .fe-btn {
+	background: @action_2 !important;
+}
+.ui-header{
+	background: @header;
+}
+.fe-content .fe-nav , .fe-page-heading {
+	background: @footer;
+}
+.fe-page-heading .fe-thread-actions li a {
+	.fontcolor(@footer, #3b3b3b, #ffffff) !important;
+}
+.ui-footer {
+	background: @footer;	
+}
+#fe_category {
+	background: @footer;
+}
+.fe-cat-list li a {
+	background: @footer;
+	.fontcolor(@footer, #999999, #eeeeee) !important;
+}
+body {
+	font-family: @font-text;
+	font-size: @font-text-size;	
+}
+.fe-title {
+	font-family: @font-heading !important;
+	font-size: @font-heading-size !important;
+	font-style: @font-heading-style !important;	
+}

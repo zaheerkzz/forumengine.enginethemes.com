@@ -1,0 +1,15 @@
+.wp-editor-container .quicktags-toolbar,.wp-editor-container .wp_themeSkin tr.mceFirst td.mceToolbar{
+	background: #F8F8F8;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+	border-bottom: none !important;
+}
+
+textarea{
+	height: 150px;
+}
+
+.wp_themeSkin a.mceButton , .wp_themeSkin a:link {
+	padding: 0 !important;
+}

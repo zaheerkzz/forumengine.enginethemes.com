@@ -1,0 +1,43 @@
+.ui-header .fe-search {
+  background-color: #e64b21 !important;
+}
+.fe-cat-list > ul > li.fe-current > a > .name {
+  border-left: 3px solid #e64b21 !important;
+}
+.fe-tab-items .fe-tab-item.current a,
+.fe-tab-items .fe-tab-item.active a {
+  border-top: 3px solid #e64b21 !important;
+}
+.fe-btn-primary,
+.fe-btn {
+  background: #e64b21 !important;
+}
+.ui-header {
+  background: #4F4F4F;
+}
+.fe-content .fe-nav,
+.fe-page-heading {
+  background: #F2F2F2;
+}
+.fe-page-heading .fe-thread-actions li a {
+  color: #3b3b3b !important;
+}
+.ui-footer {
+  background: #F2F2F2;
+}
+#fe_category {
+  background: #F2F2F2;
+}
+.fe-cat-list li a {
+  background: #F2F2F2;
+  color: #999999 !important;
+}
+body {
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.fe-title {
+  font-family: Open Sans, Arial, Helvetica, sans-serif !important;
+  font-size: 14px !important;
+  font-style:  !important;
+}

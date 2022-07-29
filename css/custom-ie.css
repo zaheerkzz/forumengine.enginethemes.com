@@ -1,0 +1,19 @@
+.ie8 #reply_thread .button-event{
+	/*/margin-top: -27px;*/
+}
+.ie8 .search-header.col-md-8{
+	width: 50%;
+}
+.ie8 .footer .nav{
+	width: 700px;
+}
+.ie9 .single-thread .button-event .btn{
+	width: 130px;
+}
+.ie8 .single-thread .button-event .btn{
+	width: 130px;
+}
+.moxie-shim.moxie-shim-html5{
+	width: 100% !important;
+	height: 100% !important;
+}
